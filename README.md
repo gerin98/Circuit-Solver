@@ -5,7 +5,7 @@ solves simple linear circuits
 ```
 read lab4 documentation for more info
 ```
-> insertR R1 100 6 5
+ > insertR R1 100 6 5
 Inserted: resistor R1 100.00 Ohms 6 -> 5
 > insertR R2 100 5 2
 Inserted: resistor R2 100.00 Ohms 5 -> 2
