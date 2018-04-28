@@ -5,22 +5,23 @@ solves simple linear circuits
 ```
 read lab4 documentation for more info
 ```
- > insertR R1 100 6 5
+insertR R1 100 6 5
 Inserted: resistor R1 100.00 Ohms 6 -> 5
-> insertR R2 100 5 2
+insertR R2 100 5 2
 Inserted: resistor R2 100.00 Ohms 5 -> 2
-> insertR R3 200 5 3
+insertR R3 200 5 3
 Inserted: resistor R3 200.00 Ohms 5 -> 3
-> insertR R4 150 2 3
+insertR R4 150 2 3
 Inserted: resistor R4 150.00 Ohms 2 -> 3
-> insertR R5 120 3 4
+insertR R5 120 3 4
 Inserted: resistor R5 120.00 Ohms 3 -> 4
-> solve
+solve
 Error: no nodes have their voltage set
-> setV 6 1
+setV 6 1
 Set: node 6 to 1.00 Volts
-> setV 4 -0.6
+setV 4 -0.6
 Set: node 4 to -0.60 Volts
+
 > solve
 Solve:
 Node 2: 0.30 V
