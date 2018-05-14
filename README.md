@@ -11,5 +11,5 @@ print the resistor network
 
 solve the circuit to determine voltages at all nodes
 ```
-read lab4 documentation for more info
+read lab4_handout.pdf  for more info
 ```
